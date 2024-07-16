@@ -151,13 +151,13 @@ List<TTextMenu> toolbarControls(BuildContext context, String id, FFI ffi) {
         onPressed: () => ffi.cursorModel.reset()));
   }
   // transferFile
-  if (isDesktop) {
-    v.add(
-      TTextMenu(
-          child: Text(translate('Transfer file')),
-          onPressed: () => connect(context, id, isFileTransfer: true)),
-    );
-  }
+  // if (isDesktop) {
+  //   v.add(
+  //     TTextMenu(
+  //         child: Text(translate('Transfer file')),
+  //         onPressed: () => connect(context, id, isFileTransfer: true)),
+  //   );
+  // }
   // tcpTunneling
   if (isDesktop) {
     v.add(
