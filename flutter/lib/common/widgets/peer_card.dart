@@ -523,7 +523,7 @@ abstract class BasePeerCard extends StatelessWidget {
     return _connectCommonAction(
       context,
       translate('Transfer file'),
-      isFileTransfer: true,
+      isFileTransfer: false,
     );
   }
 
