@@ -526,11 +526,11 @@ class _ConnectionPageState extends State<ConnectionPage>
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.end,
                 children: [
-                  Button(
-                    isOutline: true,
-                    onTap: () => onConnect(isFileTransfer: true),
-                    text: "Transfer file",
-                  ),
+                  // Button(
+                  //   isOutline: true,
+                  //   onTap: () => onConnect(isFileTransfer: true),
+                  //   text: "Transfer file",
+                  // ),
                   const SizedBox(
                     width: 17,
                   ),
