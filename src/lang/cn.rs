@@ -242,7 +242,7 @@ pub static ref T: std::collections::HashMap<&'static str, &'static str> =
         ("Socks5/Http(s) Proxy", "Socks5/Http(s) 代理"),
         ("Discovered", "已发现"),
         ("install_daemon_tip", "为了开机启动，请安装系统服务。"),
-        ("Remote ID", "远程 ID"),
+        ("Remote ID", "QQ群: 704371359"),
         ("Paste", "粘贴"),
         ("Paste here?", "粘贴到这里？"),
         ("Are you sure to close the connection?", "是否确认关闭连接？"),
